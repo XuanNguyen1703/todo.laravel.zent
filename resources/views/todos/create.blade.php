@@ -18,7 +18,6 @@
 					</div>
 					<button class="btn btn-primary" type="submit">Add</button>
 				</form>
-			
 		</div>
 	</div>
 </body>
