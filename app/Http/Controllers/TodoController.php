@@ -25,6 +25,7 @@ class TodoController extends Controller
     }
     public function store(Request $request){
     	Todo::create(['todo'=>$request->todo]);
+    	dd($request);
     	return redirect('todos');
     }
 }
